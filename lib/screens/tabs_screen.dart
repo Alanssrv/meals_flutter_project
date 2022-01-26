@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 import 'categories_screen.dart';
 import 'favorite_screen.dart';
+import '../components/main_drawer.dart';
 
 class TabsScreen extends StatefulWidget {
   const TabsScreen({Key? key}) : super(key: key);
@@ -32,7 +33,10 @@ class _TabsScreenState extends State<TabsScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Center(child: Text(_titles[_selectedScreenIndex])),
+        centerTitle: true,
+        title: Text(
+          _titles[_selectedScreenIndex],
+        ),
       ),
       body: _screens[_selectedScreenIndex],
       bottomNavigationBar: BottomNavigationBar(
@@ -52,6 +56,7 @@ class _TabsScreenState extends State<TabsScreen> {
           )
         ],
       ),
+      drawer: MainDrawer(),
     );
   }
 }
