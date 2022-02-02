@@ -24,16 +24,16 @@ Instalação:
 
 ## Capturas de Telas
 
-* Tela Principal
+#### Tela Principal
 ![](/screenshots/1.png)
 
-* Receitas
+#### Receitas
 ![](/screenshots/2.png)
 
-* Detalhes de uma receita
+#### Detalhes de uma receita
 ![](/screenshots/3.png)
 
-* Tela de Configuração
+#### Tela de Configuração
 ![](/screenshots/4.png)
 
 ## Receitas
