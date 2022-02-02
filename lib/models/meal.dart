@@ -18,6 +18,7 @@ class Meal {
   final List<String> ingredients;
   final List<String> steps;
   final int duration;
+  final int people;
   final bool isGlutenFree;
   final bool isLactoseFree;
   final bool isVegan;
@@ -33,6 +34,7 @@ class Meal {
     required this.ingredients,
     required this.steps,
     required this.duration,
+    required this.people,
     required this.isGlutenFree,
     required this.isLactoseFree,
     required this.isVegan,

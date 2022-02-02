@@ -71,7 +71,18 @@ class MealItem extends StatelessWidget {
                   Row(children: [
                     const Icon(Icons.schedule),
                     const SizedBox(width: 6),
-                    Text('${meal.duration} min'),
+                    Text(
+                      meal.duration < 60
+                          ? '${meal.duration} min'
+                          : (meal.duration % 60 == 0
+                              ? '${meal.duration ~/ 60} h'
+                              : '${meal.duration ~/ 60} h ${meal.duration % 60} min'),
+                    ),
+                  ]),
+                  Row(children: [
+                    const Icon(Icons.people_alt),
+                    const SizedBox(width: 6),
+                    Text('${meal.people}'),
                   ]),
                   Row(children: [
                     const Icon(Icons.work),
