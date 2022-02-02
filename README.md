@@ -22,4 +22,19 @@ Instalação:
 * Substitua todos os arquivos por aqueles semelhantes nesse projeto
 * De acordo com sua versão do Flutter o projeto pode apresentar falhas
 
-# OBS.: Projeto em desenvolvimento
+## Capturas de Telas
+
+* Tela Principal
+![](/screenshots/1.png)
+
+* Receitas
+![](/screenshots/2.png)
+
+* Detalhes de uma receita
+![](/screenshots/3.png)
+
+* Tela de Configuração
+![](/screenshots/4.png)
+
+## Receitas
+Todas as receitas presentes no app são do [TudoReceitas](https://www.tudoreceitas.com/)
